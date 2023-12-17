@@ -15,7 +15,11 @@ function App() {
               description={CORE_CONCEPTS[0].description}
               image={CORE_CONCEPTS[0].image}
             />
-            <CoreConcept {...CORE_CONCEPTS[1]} />
+            <CoreConcept
+              title={CORE_CONCEPTS[1].title}
+              description={CORE_CONCEPTS[1].description}
+              image={CORE_CONCEPTS[1].image}
+            />
             <CoreConcept {...CORE_CONCEPTS[2]} />
             <CoreConcept {...CORE_CONCEPTS[3]} />
           </ul>
