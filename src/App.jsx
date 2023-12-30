@@ -2,6 +2,7 @@ import { CORE_CONCEPTS } from "./data.js";
 import Header from "./components/Header.jsx";
 import CoreConcept from "./components/CoreConcept.jsx";
 import TabButton from "./components/TabButton.jsx";
+import Card from "./components/Card.jsx";
 
 function App() {
   return (
@@ -33,6 +34,15 @@ function App() {
             <TabButton>Props</TabButton>
             <TabButton>State</TabButton>
           </menu>
+          <Card name="Maria Miles">
+            <p>
+              Maria is a professor of Computer Science at the University of
+              Illinois.
+            </p>
+            <p>
+              <a href="mailto:blake@example.com">Email Maria</a>
+            </p>
+          </Card>
         </section>
       </main>
     </div>
