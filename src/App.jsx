@@ -40,7 +40,7 @@ function App() {
               Illinois.
             </p>
             <p>
-              <a href="mailto:blake@example.com">Email Maria</a>
+              <a href="mailto:blake@example.com">Email Mariah</a>
             </p>
           </Card>
         </section>
