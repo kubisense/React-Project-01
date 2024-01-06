@@ -1,10 +1,11 @@
 import { useState } from "react";
-import { CORE_CONCEPTS } from "./data.js";
+
 import Header from "./components/Header.jsx";
 import CoreConcept from "./components/CoreConcept.jsx";
 import TabButton from "./components/TabButton.jsx";
 import Card from "./components/Card.jsx";
 import { EXAMPLES } from "./data-with-examples.js";
+import { CORE_CONCEPTS } from "./data-with-examples.js";
 
 function App() {
   const [selectTopic, setSelectedTopic] = useState();
